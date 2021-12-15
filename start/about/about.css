@@ -1,0 +1,57 @@
+#about-container{
+height: 100%;
+
+}
+#about-container-inner{
+height: 100%;
+width: 80%;
+margin: 0px auto;
+display: grid;
+grid-template-rows: auto 1fr;
+grid-row-gap: 10px;
+
+}
+.top-nav{
+    background-color: #222;
+    border-color: #080808;
+    height: 55px;
+    border-radius: 4px;
+    display: grid;
+    align-items: center;
+    padding: 0.90em;
+    grid-template-columns: 1fr 1fr;
+}
+.welcome-text{
+    color: #fff;
+}
+.top-nav-items{
+    list-style-type: none;
+}
+.top-nav-items li{
+    display: inline;
+}
+.top-nav-items li a{
+    color: #fff;
+    padding: 5px;
+}
+.logo-text{
+    font-size: 1.80em !important;
+}
+.grey{
+    background-color: rgb(247, 247, 247);
+}
+.white{
+    background-color: #fff !important;
+}
+.banner{
+    height: 320px;
+    background-color: black;
+    border-radius: 10px;
+    background-image: url('../img/whistler.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 14%;
+    color:  white;
+    padding: 3em;
+
+}

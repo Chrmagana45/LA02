@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* home page css */
+.cursive {
+  font-family: "Brush Script Mt";
+  font-size: 1.75em;
+}
+.drop-shadow {
+  text-shadow: 2px 2px 3px #000;
+}
+.circle {
+  border-radius: 50%;
+}
+#home-container {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.r1 {
+  background-color: black;
+  background-image: url("img/david.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.r1-inner {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+}
+.home-main-nav {
+  padding-top: 25px;
+}
+.home-main-nav > ul {
+  list-style-type: none;
+}
+.home-main-nav > ul > li {
+  display: inline;
+}
+.home-main-nav > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 0.5em;
+  text-shadow: 2px 2px 3px #000;
+}
+.home-main-nav > ul > li:first-child a:hover {
+  background-color: transparent;
+  color: #428bca;
+}
+.home-main-nav > ul > li > a:hover {
+  background-color: #fff;
+  color: red;
+}
+.gallery-description {
+  text-align: center;
+  color: #fff;
+  padding-top: 15%;
+  padding-bottom: 40px;
+  font-size: 1.2em;
+}
+.r2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+  grid-column-gap: 1em;
+  padding: 1em 0em;
+}
+.r2 > div {
+  text-align: center;
+}
+.left-align {
+  text-align: left;
+}
+/* end home page css */
